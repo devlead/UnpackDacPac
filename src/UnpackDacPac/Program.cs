@@ -18,6 +18,8 @@ var app = new CommandApp(registrar);
 app.Configure(
     config =>
     {
+        config.SetApplicationName("unpackdacpac");
+
         config.ValidateExamples();
 
         config.AddCommand<UnpackCommand>("unpack")
