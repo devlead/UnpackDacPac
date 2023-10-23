@@ -9,6 +9,8 @@
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>unpackdacpac</ToolCommandName>
     <LangVersion>11</LangVersion>
+    <PackageIcon>icon/unpackdacpac.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -32,6 +34,12 @@
     <Using Include="UnpackDacPac.Commands.Settings" />
     <Using Include="Spectre.Console" />
     <Using Include="Spectre.Console.Cli" />
+  </ItemGroup>
+
+  <ItemGroup>
+     <None Include="../../icon/LICENSE.md" Pack="true" PackagePath="icon" />
+     <None Include="../../icon/unpackdacpac.png" Pack="true" PackagePath="icon" />
+     <None Include="../../README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
