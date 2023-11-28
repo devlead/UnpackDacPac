@@ -15,14 +15,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.SqlServer.DacFx" Version="162.1.167" />
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0-rc.2.23479.6 " />
-    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0-rc.2.23479.6 " />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
     <PackageReference Include="Cake.Bridge.DependencyInjection" Version="0.15.0" />
-    <PackageReference Include="Cake.Common" Version="3.1.0" />
-    <PackageReference Include="Spectre.Console.Cli.Extensions.DependencyInjection" Version="0.1.0" />
-    <PackageReference Include="Spectre.Console" Version="0.47.0" />
-    <PackageReference Include="Spectre.Console.Cli" Version="0.47.0" />
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
+    <PackageReference Include="Cake.Common" Version="4.0.0" />
+    <PackageReference Include="Spectre.Console.Cli.Extensions.DependencyInjection" Version="0.2.0" />
+    <PackageReference Include="Spectre.Console" Version="0.48.0" />
+    <PackageReference Include="Spectre.Console.Cli" Version="0.48.0" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="all" />
   </ItemGroup>
 
  <ItemGroup>
@@ -39,7 +39,7 @@
   <ItemGroup>
      <None Include="../../icon/LICENSE.md" Pack="true" PackagePath="icon" />
      <None Include="../../icon/unpackdacpac.png" Pack="true" PackagePath="icon" />
-     <None Include="../../README.md" Pack="true" PackagePath="\"/>
+     <None Include="../../README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
