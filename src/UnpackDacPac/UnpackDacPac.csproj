@@ -16,7 +16,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.SqlServer.DacFx" Version="162.4.92" />
     <PackageReference Include="Cake.Bridge.DependencyInjection" Version="0.15.0" />
-    <PackageReference Include="Cake.Common" Version="4.0.0" />
+    <PackageReference Include="Cake.Common" Version="4.2.0" />
     <PackageReference Include="Spectre.Console.Cli.Extensions.DependencyInjection" Version="0.2.0" />
     <PackageReference Include="Spectre.Console" Version="0.49.1" />
     <PackageReference Include="Spectre.Console.Cli" Version="0.49.1" />
@@ -26,18 +26,20 @@
   <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
       <PackageReference Include="System.Formats.Asn1" Version="8.0.1" />
+      <PackageReference Include="System.IO.Packaging" Version="8.0.1" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
-    <PackageReference Include="System.Text.Json" Version="8.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.1" />
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' != 'net6.0'">
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
-      <PackageReference Include="System.Formats.Asn1" Version="9.0.0-rc.1.24431.7" />
+      <PackageReference Include="System.Formats.Asn1" Version="9.0.0-rc.2.24473.5" />
+      <PackageReference Include="System.IO.Packaging" Version="9.0.0-rc.2.24473.5" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.0-rc.1.24431.7" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.0-rc.1.24431.7" />
-    <PackageReference Include="System.Text.Json" Version="9.0.0-rc.1.24431.7" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.0-rc.2.24473.5" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.0-rc.2.24473.5" />
+    <PackageReference Include="System.Text.Json" Version="9.0.0-rc.2.24473.5" />
   </ItemGroup>
 
  <ItemGroup>
