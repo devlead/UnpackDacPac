@@ -26,6 +26,7 @@
   <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
       <PackageReference Include="System.Formats.Asn1" Version="8.0.1" />
+      <PackageReference Include="System.IO.Packaging" Version="8.0.1" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
     <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.1" />
@@ -34,6 +35,7 @@
   <ItemGroup Condition="'$(TargetFramework)' != 'net6.0'">
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
       <PackageReference Include="System.Formats.Asn1" Version="9.0.0-rc.2.24473.5" />
+      <PackageReference Include="System.IO.Packaging" Version="9.0.0-rc.2.24473.5" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
     <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.0-rc.2.24473.5" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.0-rc.2.24473.5" />
