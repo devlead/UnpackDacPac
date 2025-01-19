@@ -23,7 +23,7 @@
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="all" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
       <PackageReference Include="System.Formats.Asn1" Version="9.0.1" />
-      <PackageReference Include="System.IO.Packaging" Version="9.0.0" />
+      <PackageReference Include="System.IO.Packaging" Version="9.0.1" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
     <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.1" />
