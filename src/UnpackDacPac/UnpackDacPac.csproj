@@ -19,7 +19,7 @@
     <PackageReference Include="Cake.Bridge.DependencyInjection" Version="2025.4.8.110" />
     <PackageReference Include="Cake.Common" Version="5.0.0" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
-      <PackageReference Include="System.Formats.Asn1" Version="9.0.4" />
+      <PackageReference Include="System.Formats.Asn1" Version="9.0.5" />
       <PackageReference Include="System.IO.Packaging" Version="9.0.4" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
   </ItemGroup>
