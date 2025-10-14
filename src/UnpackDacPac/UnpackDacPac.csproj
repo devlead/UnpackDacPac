@@ -20,7 +20,7 @@
     <PackageReference Include="Cake.Common" Version="5.1.0" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
       <PackageReference Include="System.Formats.Asn1" Version="9.0.10" />
-      <PackageReference Include="System.IO.Packaging" Version="9.0.9" />
+      <PackageReference Include="System.IO.Packaging" Version="9.0.10" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
   </ItemGroup>
 
