@@ -14,7 +14,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Devlead.Console" Version="2025.10.15.396" />
+    <PackageReference Include="Devlead.Console" Version="2025.11.4.431" />
     <PackageReference Include="Microsoft.SqlServer.DacFx" Version="170.2.70" />
     <PackageReference Include="Cake.Bridge.DependencyInjection" Version="2025.10.15.326" />
     <PackageReference Include="Cake.Common" Version="5.1.0" />
