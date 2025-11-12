@@ -17,7 +17,7 @@
     <PackageReference Include="Devlead.Console" Version="2025.10.15.396" />
     <PackageReference Include="Microsoft.SqlServer.DacFx" Version="170.2.70" />
     <PackageReference Include="Cake.Bridge.DependencyInjection" Version="2025.10.15.326" />
-    <PackageReference Include="Cake.Common" Version="5.1.0" />
+    <PackageReference Include="Cake.Common" Version="6.0.0" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
       <PackageReference Include="System.Formats.Asn1" Version="9.0.10" />
       <PackageReference Include="System.IO.Packaging" Version="9.0.10" />
