@@ -14,13 +14,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Devlead.Console" Version="2025.11.25.507" />
+    <PackageReference Include="Devlead.Console" Version="2026.1.14.558" />
     <PackageReference Include="Microsoft.SqlServer.DacFx" Version="170.2.70" />
-    <PackageReference Include="Cake.Bridge.DependencyInjection" Version="2025.11.24.417" />
+    <PackageReference Include="Cake.Bridge.DependencyInjection" Version="2026.1.14.460" />
     <PackageReference Include="Cake.Common" Version="6.0.0" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
-      <PackageReference Include="System.Formats.Asn1" Version="10.0.0" />
-      <PackageReference Include="System.IO.Packaging" Version="10.0.0" />
+      <PackageReference Include="System.Formats.Asn1" Version="10.0.2" />
+      <PackageReference Include="System.IO.Packaging" Version="10.0.2" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
   </ItemGroup>
 
