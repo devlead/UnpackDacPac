@@ -8,7 +8,7 @@ public class UnpackCommand : AsyncCommand<UnpackSettings>
     private ICakeContext CakeContext { get; }
     private ILogger Logger { get; }
 
-    protected override async Task<int> ExecuteAsync(CommandContext context, UnpackSettings settings, CancellationToken cancellationToken)
+    public override async Task<int> ExecuteAsync(CommandContext context, UnpackSettings settings, CancellationToken cancellationToken)
     {
         Logger.LogInformation("DacPacPath: {DacPacPath}", settings.DacPacPath);
         Logger.LogInformation("OutputPath: {OutputPath}", settings.OutputPath);
