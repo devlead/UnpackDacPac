@@ -1,5 +1,7 @@
 # Unpack DAC Package .NET Tool
 
+[![NuGet](https://img.shields.io/nuget/v/UnpackDacPac.svg)](https://www.nuget.org/packages/UnpackDacPac)
+
 Extracts dacpac and generates deployment script to target folder without need for actual database running.
 
 ## Install
