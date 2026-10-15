@@ -1,5 +1,6 @@
 #!/usr/bin/env dotnet
 #:sdk Cake.Sdk@6.3.0
+#:package System.Security.Cryptography.Pkcs@11.0.0-rc.2.26504.105
 #:property IncludeAdditionalFiles=./build/*.cs
 
 /*****************************
@@ -7,7 +8,7 @@
  *****************************/
 Setup(
     static context => {
-        InstallTool("dotnet:https://api.nuget.org/v3/index.json?package=DPI&version=2026.5.18.419");
+        InstallTool("dotnet:https://api.nuget.org/v3/index.json?package=DPI&version=2026.10.15.520");
         InstallTool("dotnet:https://api.nuget.org/v3/index.json?package=GitVersion.Tool&version=6.7.0");
          var assertedVersions = context.GitVersion(new GitVersionSettings
             {
