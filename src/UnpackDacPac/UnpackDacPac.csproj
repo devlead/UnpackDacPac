@@ -14,9 +14,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Devlead.Console" Version="2026.10.15.984" />
+    <PackageReference Include="Devlead.Console" Version="2026.10.26.1021" />
     <PackageReference Include="Microsoft.SqlServer.DacFx" Version="170.5.96" />
-    <PackageReference Include="Cake.Bridge.DependencyInjection" Version="2026.10.15.869" />
+    <PackageReference Include="Cake.Bridge.DependencyInjection" Version="2026.10.26.892" />
     <PackageReference Include="Cake.Common" Version="6.3.0" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
       <PackageReference Include="System.Formats.Asn1" Version="10.0.14" Condition="'$(TargetFramework)' != 'net11.0'" />
