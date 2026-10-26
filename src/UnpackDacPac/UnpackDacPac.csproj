@@ -14,15 +14,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Devlead.Console" Version="2026.10.15.984" />
+    <PackageReference Include="Devlead.Console" Version="2026.10.26.1021" />
     <PackageReference Include="Microsoft.SqlServer.DacFx" Version="170.5.96" />
-    <PackageReference Include="Cake.Bridge.DependencyInjection" Version="2026.10.15.869" />
+    <PackageReference Include="Cake.Bridge.DependencyInjection" Version="2026.10.26.892" />
     <PackageReference Include="Cake.Common" Version="6.3.0" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
-      <PackageReference Include="System.Formats.Asn1" Version="10.0.13" Condition="'$(TargetFramework)' != 'net11.0'" />
-      <PackageReference Include="System.Formats.Asn1" Version="11.0.0-rc.2.26504.105" Condition="'$(TargetFramework)' == 'net11.0'" />
-      <PackageReference Include="System.IO.Packaging" Version="10.0.13" Condition="'$(TargetFramework)' != 'net11.0'" />
-      <PackageReference Include="System.IO.Packaging" Version="11.0.0-rc.2.26504.105" Condition="'$(TargetFramework)' == 'net11.0'" />
+      <PackageReference Include="System.Formats.Asn1" Version="10.0.14" Condition="'$(TargetFramework)' != 'net11.0'" />
+      <PackageReference Include="System.Formats.Asn1" Version="11.0.0-rc.3.26522.148" Condition="'$(TargetFramework)' == 'net11.0'" />
+      <PackageReference Include="System.IO.Packaging" Version="10.0.14" Condition="'$(TargetFramework)' != 'net11.0'" />
+      <PackageReference Include="System.IO.Packaging" Version="11.0.0-rc.3.26522.148" Condition="'$(TargetFramework)' == 'net11.0'" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
   </ItemGroup>
 
@@ -44,15 +44,15 @@
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net11.0'">
-    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="11.0.0-rc.2.26504.105" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="11.0.0-rc.3.26522.148" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
-    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="10.0.13" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="10.0.14" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net9.0'">
-    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="9.0.21" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="9.0.22" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net8.0'">
