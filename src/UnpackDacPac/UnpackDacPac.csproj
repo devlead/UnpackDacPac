@@ -20,7 +20,7 @@
     <PackageReference Include="Cake.Common" Version="6.3.0" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
       <PackageReference Include="System.Formats.Asn1" Version="10.0.13" Condition="'$(TargetFramework)' != 'net11.0'" />
-      <PackageReference Include="System.Formats.Asn1" Version="11.0.0-rc.2.26504.105" Condition="'$(TargetFramework)' == 'net11.0'" />
+      <PackageReference Include="System.Formats.Asn1" Version="11.0.0-rc.3.26522.148" Condition="'$(TargetFramework)' == 'net11.0'" />
       <PackageReference Include="System.IO.Packaging" Version="10.0.14" Condition="'$(TargetFramework)' != 'net11.0'" />
       <PackageReference Include="System.IO.Packaging" Version="11.0.0-rc.3.26522.148" Condition="'$(TargetFramework)' == 'net11.0'" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
