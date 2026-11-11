@@ -19,7 +19,7 @@
     <PackageReference Include="Cake.Bridge.DependencyInjection" Version="2026.11.11.906" />
     <PackageReference Include="Cake.Common" Version="7.0.0" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
-      <PackageReference Include="System.IO.Packaging" Version="10.0.15" Condition="'$(TargetFramework)' != 'net11.0'" />
+      <PackageReference Include="System.IO.Packaging" Version="11.0.0" Condition="'$(TargetFramework)' != 'net11.0'" />
       <PackageReference Include="System.IO.Packaging" Version="11.0.0" Condition="'$(TargetFramework)' == 'net11.0'" />
     <!-- Implicit Outdated Microsoft.SqlServer.DacFx -->
   </ItemGroup>
